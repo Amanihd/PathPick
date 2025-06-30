@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { View } from "react-native";
 import DestinationHeader from "../components/DestinationDetails/DestinationHeader";
 import DestinationInfo from "../components/DestinationDetails/DestinationInfo";

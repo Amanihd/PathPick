@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { View, FlatList, Text, StyleSheet } from "react-native";
 import DestinationCard from "../components/ExploreScreen/DestinationCard";
 import { FavoritesContext } from "../context/FavoritesContext";
 
 const FavoritesScreen = ({ navigation }) => {
-  const { favorites, removeFavorite } = useContext(FavoritesContext);
+  const { favorites } = useContext(FavoritesContext);
 
   if (favorites.length === 0) {
     return (

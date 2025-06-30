@@ -19,7 +19,7 @@ const BottomTabNavigator = () => {
           iconName = route.focused ? "person" : "person-outline";
 
         return {
-          tabBarIcon: ({ focused, color, size }) => (
+          tabBarIcon: ({ color, size }) => (
             <Ionicons name={iconName} size={size} color={color} />
           ),
           tabBarActiveTintColor: "#4169E1",

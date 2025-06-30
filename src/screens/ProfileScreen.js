@@ -1,5 +1,4 @@
-// ProfileScreen.js
-import { View, StyleSheet, ScrollView } from "react-native";
+import {  StyleSheet, ScrollView } from "react-native";
 import UserProfileCard from "../components/ProfileScreen/UserProfileCard";
 import Footer from "../components/ProfileScreen/Footer";
 
